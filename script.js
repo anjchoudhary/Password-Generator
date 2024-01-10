@@ -15,7 +15,6 @@ const characters = {
 const generatePassword = () => {
     let staticPassword = "",
         randomPassword = "",
-        excludeDuplicate = false,
         passLength = lengthSlider.value;
 
     options.forEach(option => {
